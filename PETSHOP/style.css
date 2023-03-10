@@ -1,0 +1,94 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ body {
+    background-image: linear-gradient(#F28705, #edbf34 );
+ 
+ }
+ .ban {
+
+    max-width: 1700vh; /* mexe com o tamanho do banner*/
+    padding: 0.5vh; /*largura do banner*/
+    margin: auto;
+ }
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #734D3F ;
+    width: 98vw;
+    
+ }
+ nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+ }
+
+
+ nav ul {
+    list-style: none;
+ }
+ nav ul li {
+    display: inline-table; /*faz com que o li (menu) quebre a linha e fique um do lado do outro*/
+    margin-right: 15vh;
+    margin-top: 25px;
+ }
+ nav ul li a  {
+    padding: 15px 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 10px;
+    padding: 5px;
+    transition: width 0.6s, padding 0.2s;
+ }
+ nav ul li a:hover{
+   text-decoration: underline #472905 solid 3px; /* sublinhado do texto cor e grossura do sublinhado*/
+   
+  }
+
+.inicio {
+   width: 98vw;
+ 
+}
+.botao {
+   position: relative;
+   width: 420px;
+   height: 100px;
+   left: 1010px;
+   top: 400px;
+   background: #4B683A;
+   border-radius: 6px;
+   border: #4B683A;
+   font-family: 'Kite One', sans-serif;
+   color: #fff;
+   font-size: 30px;
+}
+.botao:hover {
+   background-color: #275227;
+   transform: scale(1.1);
+    transition: all 0.5s;
+    color: rgb(212, 168, 84);
+   
+}
+
+ p {
+   position: absolute;
+   width: 400px;
+   height: 138px;
+   left: 1136px;
+   top: 430px;
+   font-family: 'Kite One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 69px;
+   color: #E39F4D;
+
+ }
